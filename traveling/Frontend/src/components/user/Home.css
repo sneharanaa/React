@@ -1,0 +1,62 @@
+.text1 {
+    position: relative;
+    color: transparent;
+    font-size: 15vm;
+    -webkit-text-stroke: 3px whitesmoke;
+    text-transform: uppercase;
+}
+.text1::before {
+    content: "Find";
+    position: absolute;
+    width: 0%;
+    overflow: hidden;
+    color: rgb(100, 12, 159);
+    border-right: 4px rgb(100, 12, 159);
+    transition: 1s ease-in-out;
+}
+.text1:hover:before {
+    width: 100%;
+    filter: drop-shadow(0 0 3px rgb(241, 26, 69));
+}
+
+.text2 {
+    position: relative;
+    color: transparent;
+    font-size: 15vm;
+    -webkit-text-stroke: 3px whitesmoke;
+    text-transform: uppercase;
+}
+.text2::before {
+    content: "Yourself";
+    position: absolute;
+    width: 0%;
+    overflow: hidden;
+    color: rgb(100, 12, 159);
+    border-right: 4px rgb(100, 12, 159);
+    transition: 1s ease-in-out;
+}
+.text2:hover:before {
+    width: 100%;
+    filter: drop-shadow(0 0 3px rgb(241, 26, 69));
+}
+
+.text3 {
+    position: relative;
+    color: transparent;
+    font-size: 15vm;
+    -webkit-text-stroke: 3px whitesmoke;
+    text-transform: uppercase;
+}
+.text3::before {
+    content: "Outside";
+    position: absolute;
+    width: 0%;
+    overflow: hidden;
+    color: rgb(100, 12, 159);
+    border-right: 4px rgb(100, 12, 159);
+    transition: 1s ease-in-out;
+}
+.text3:hover:before {
+    width: 100%;
+    filter: drop-shadow(0 0 3px rgb(241, 26, 69));
+}
